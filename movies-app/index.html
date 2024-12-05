@@ -10,28 +10,15 @@
       <h1>My Movie List</h1>
       <form class="movie-list-form">
         <label for="movie-entry">New Movie:</label>
-        <input
-          autofocus
-          class="movie-title-entry"
-          name="title-entry"
-          type="text"
-        />
+        <input autofocus id="movie-input" name="title-entry" type="text" />
 
         <label for="movie-entry">Rating:</label>
-        <input
-          autofocus
-          class="movie-rating-entry"
-          name="rating-entry"
-          type="text"
-        />
-        <button type="submit">Submit</button>
+        <input autofocus id="rating-input" name="rating-entry" type="text" />
+        <button id="add" type="submit">Submit</button>
       </form>
-      <ul class="movie-list"></ul>
+      <ul id="movie-list"></ul>
     </div>
-    <script
-      type="text/javascript"
-      src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
